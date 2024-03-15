@@ -1,0 +1,24 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "windswept_mace.smash_air": {
+      "category": "player",
+      "max_distance": 16.0,
+      "sounds": [
+        "sounds/item/windswept_mace/smash_air1",
+        "sounds/item/windswept_mace/smash_air2",
+        "sounds/item/windswept_mace/smash_air3"
+      ]
+    },
+    "windswept_mace.smash_ground": {
+      "category": "player",
+      "max_distance": 6.0,
+      "sounds": [
+        "sounds/item/windswept_mace/smash_ground1",
+        "sounds/item/windswept_mace/smash_ground2",
+        "sounds/item/windswept_mace/smash_ground3",
+        "sounds/item/windswept_mace/smash_ground4"
+      ]
+    }
+  }
+}

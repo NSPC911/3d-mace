@@ -1,0 +1,69 @@
+{
+  "block_sounds": {
+    "heavy_core": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "events": {
+        "default": "",
+        "item.use.on": {
+          "sound": "step.heavy_core",
+          "volume": 1.0
+        },
+        "break": {
+          "sound": "break.heavy_core",
+          "volume": 1.0,
+          "pitch":  0.8
+        },
+        "hit": {
+          "sound": "step.heavy_core",
+          "volume": 1.0,
+          "pitch": 0.5
+        },
+        "place": {
+          "sound": "break.heavy_core",
+          "volume": 1.0,
+          "pitch":  0.8
+        }
+      }
+    }
+  },
+  "interactive_sounds": {
+    "block_sounds": {
+      "heavy_core": {
+        "volume": 1.0,
+        "pitch": 1.0,
+        "events": {
+          "default": "",
+          "fall": {
+            "sound": "step.heavy_core"
+          },
+          "step": {
+            "sound": "step.heavy_core"
+          },
+          "jump": {
+            "sound": "step.heavy_core",
+            "volume": 0.12,
+            "pitch": 1.1
+          },
+          "land": {
+            "sound": "step.heavy_core"
+          }
+        }
+      }
+    }
+  },
+  "individual_event_sounds": {
+    "events": {
+      "windswept_mace.smash_air": {
+        "sound": "windswept_mace.smash_air",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      "windswept_mace.smash_ground": {
+        "sound": "windswept_mace.smash_ground",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    }
+  }
+}
