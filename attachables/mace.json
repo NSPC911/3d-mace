@@ -10,6 +10,22 @@
       "textures": {
         "default": "textures/item/mace",
         "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.mace"
+      },
+      "animations": {
+        "first_person": "animation.player.mace_tool.first_person",
+        "default": "animation.player.mace_tool"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "first_person": "c.is_first_person && c.item_slot == 'main_hand'"
+          },
+          {            "default": "!c.is_first_person && c.item_slot == 'main_hand'"
+          }
+        ]
       }
     }
   }

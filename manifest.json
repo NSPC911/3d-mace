@@ -1,18 +1,24 @@
 {
   "format_version": 2,
   "header": {
-    "uuid": "d8989e4d-5217-4d57-a6f6-1787c620be97",
-    "name": "update announced live 2023",
-    "description": "Update Announced Live 2023",
+    "uuid": "d8989e4d-5217-4d57-be1a-1787c620be97",
+    "name": "3D Mace",
+    "description": "The Mace is now 3D!\nCredits:\nGeometry adapted from RenKo's Items Reimagined.\nAnimation with from RenKo's Items Reimagined.",
     "version": [ 0, 0, 1 ],
     "min_engine_version": [ 1, 20, 70 ]
   },
   "modules": [
     {
-      "description": "Next major update in development",
+      "description": "",
       "type": "resources",
-      "uuid": "2fbd21fb-9d86-477f-9a3b-9e614405714c",
+      "uuid": "2fbd21fb-9d86-477f-be1a-9e614405714c",
       "version": [ 0, 0, 1 ]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": ["NSPG911"],
+    "co-author": ["RenKo"],
+    "url": "https://github.com/NSPC911/3d-mace",
+    "license": "You are allowed to adapt this into any other pack, ie: modify textures/geometry/animations, provided that you ask for permission from me (nspg911)."
+  }
 }
