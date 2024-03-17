@@ -5,7 +5,7 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.54167,
 			"bones": {
-				"pole": {
+				"rightitem": {
 					"rotation": ["c.is_first_person ? 150 : 0", "c.is_first_person ? 0 : 0", "c.is_first_person ? 55 : 0"],
 					"position": [" c.is_first_person ? 2 : 0", "c.is_first_person ? 2 : 0", "c.is_first_person ? 4 : 0"]
 				}
@@ -14,7 +14,7 @@
 		"animation.player.mace_tool": {
 			"loop": true,
 			"bones": {
-				"pole": {
+				"rightitem": {
 					"rotation": [90, 0, 90],
 					"position": [0, -1, 3]
 				}

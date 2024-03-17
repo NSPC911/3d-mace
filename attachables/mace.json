@@ -23,7 +23,8 @@
           {
             "first_person": "c.is_first_person && c.item_slot == 'main_hand'"
           },
-          {            "default": "!c.is_first_person && c.item_slot == 'main_hand'"
+          {
+            "default": "!c.is_first_person && c.item_slot == 'main_hand'"
           }
         ]
       }

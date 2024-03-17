@@ -1,18 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "uuid": "d8989e4d-5217-4d57-be1a-1787c620be97",
+    "uuid": "5cb2536d-4eb4-be1a-0002-de3f3f2cacc0",
     "name": "3D Mace",
     "description": "The Mace is now 3D!\nCredits:\nGeometry adapted from RenKo's Items Reimagined.\nAnimation with from RenKo's Items Reimagined.",
-    "version": [ 0, 0, 1 ],
-    "min_engine_version": [ 1, 20, 70 ]
+    "version": [ 0, 0, 2 ],
+    "min_engine_version": [ 1, 20, 80 ]
   },
   "modules": [
     {
       "description": "",
       "type": "resources",
-      "uuid": "2fbd21fb-9d86-477f-be1a-9e614405714c",
-      "version": [ 0, 0, 1 ]
+      "uuid": "453a51a4-41f4-be1a-0002-81ddfdc95e82",
+      "version": [ 0, 0, 2 ]
     }
   ],
   "metadata": {
